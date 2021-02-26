@@ -9,7 +9,7 @@ from discord.ext import commands
 consumer_key ="Your consummer_key" 
 consumer_secret = "Your consumer_secret"
 access_token = "Your access_token"
-access_token_secret = "access_token_secret"
+access_token_secret = "Your access_token_secret"
 auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
 auth.set_access_token(access_token,access_token_secret)
 
