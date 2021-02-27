@@ -18,6 +18,8 @@ auth.set_access_token(access_token,access_token_secret)
 api = tweepy.API(auth)
 
 
+
+
 client = commands.Bot(command_prefix = '^')
 
 
